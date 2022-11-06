@@ -34,6 +34,7 @@ a {
 #landing {
     padding: 32px 32px;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .nav {
@@ -143,32 +144,38 @@ a {
 }
 
 .main {
-    padding-top: 120px;
     height: 100vh;
-    width: calc(100% - 60%);
+    padding-top: 28px;
+    width: calc(100% - 40%);
 }
 
 .main__wrapper {
     display: flex;
+    justify-content: space-around;
+    padding: 96px 0 0 0;
 }
 
 .main__img {
-    max-width: 640px;
+    max-width: 746px;
 }
 .main__img--wrapper {
-    padding-top: 120px;
+    width: calc(100% - 40%);
 }
 
 .main__description--title {
-    font-size: 44px;
+    font-size: 48px;
     color: rgb(29, 29, 29);
     font-weight: 600;
 }
 
 .css__circle {
     position: absolute;
-    background-color: rgba(99, 21, 255, 0.068);
-    height: 200px;
-    width: 200px;
+    background-color: rgba(99, 21, 255, 0.048);
+    transform: rotate(30deg);
+    height: 190px;
+    width: 170px;
     border-radius: 9999px;
+    z-index: 1;
+    top: 585px;
+    left: 70px
 }
