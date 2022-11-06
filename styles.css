@@ -31,22 +31,39 @@ a {
 
 .nav {
     display: flex;
+    height: 100%;
     max-height: 60px;
     justify-content: space-between;
 }
 
-.nav__links--list {
+.nav__links--wrapper {
     display: flex;
+    align-items: center;
 }
 
-.nav__links--link {
-    padding: 8px 14px;
+.nav__links--list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin: 0 24px;
+    color: rgb(63, 63, 63);
+}
+
+.nav__link--login {
+    color: rgb(63, 63, 63);
+    margin: 0 24px 0 36px;
+}
+
+.nav__link--button {
+    margin: 0 18px;
+    padding: 12px 24px;
 }
 
 .nav__logo {
     display: flex;
     max-height: 40px;
-    padding-left: 32px;
 }
 
 .title {
