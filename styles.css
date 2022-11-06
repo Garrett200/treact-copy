@@ -33,7 +33,6 @@ a {
 
 #landing {
     padding: 32px 32px;
-    overflow: hidden;
     min-height: 100vh;
 }
 
@@ -146,4 +145,30 @@ a {
 .main {
     padding-top: 120px;
     height: 100vh;
+    width: calc(100% - 60%);
+}
+
+.main__wrapper {
+    display: flex;
+}
+
+.main__img {
+    max-width: 640px;
+}
+.main__img--wrapper {
+    padding-top: 120px;
+}
+
+.main__description--title {
+    font-size: 44px;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+}
+
+.css__circle {
+    position: absolute;
+    background-color: rgba(99, 21, 255, 0.068);
+    height: 200px;
+    width: 200px;
+    border-radius: 9999px;
 }
