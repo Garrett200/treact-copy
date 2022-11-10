@@ -107,9 +107,10 @@ a {
 }
 
 .main__description--input {
-    border: inset 2px rgb(214, 214, 214);
+    border: solid 2px rgb(214, 214, 214);
     border-radius: 9999px;
     max-width: 480px;
+    width: fit-content;
     padding: 0 7px;
     height: 66px;
     display: flex;
@@ -119,7 +120,7 @@ a {
 }
 
 .main__description--input:hover {
-    border: inset 2px rgb(143, 143, 143);
+    border: solid 2px rgb(143, 143, 143);
 }
 
 .main__description--email {
@@ -146,20 +147,23 @@ a {
 .main {
     height: 100vh;
     padding-top: 28px;
-    width: calc(100% - 40%);
+    max-width: calc(100% - 58%);
+    text-align: left;
 }
 
 .main__wrapper {
     display: flex;
-    justify-content: space-around;
-    padding: 96px 0 0 0;
+    align-items: flex-start;
+    flex-direction: row;
+    
+    padding: 100px 0 0 0;
 }
 
 .main__img {
-    max-width: 746px;
+    max-width: 780px;
 }
 .main__img--wrapper {
-    width: calc(100% - 40%);
+    max-width: calc(100% - 50%);
 }
 
 .main__description--title {
@@ -167,6 +171,51 @@ a {
     color: rgb(29, 29, 29);
     font-weight: 600;
 }
+
+.main__description--para {
+    padding: 32px 0 32px 0;
+    color: rgb(36, 62, 99);
+    line-height: 1.75rem;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+}
+
+.customers {
+    margin-top: 80px;
+}
+
+.customers--para {
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.4;
+    padding: 0 0 16px 0;
+}
+
+.customers--logos {
+    max-width: 400px;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+    CSS STYLE OBJECTS
+
+*/
 
 .css__circle {
     position: absolute;
@@ -177,5 +226,5 @@ a {
     border-radius: 9999px;
     z-index: 1;
     top: 585px;
-    left: 70px
+    left: -100px;
 }
