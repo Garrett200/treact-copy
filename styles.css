@@ -33,7 +33,7 @@ a {
 
 #landing {
     padding: 32px 32px;
-    min-height: 100vh;
+    max-height: 95vh;
     overflow: hidden;
 }
 
@@ -109,7 +109,7 @@ a {
 .main__description--input {
     border: solid 2px rgb(219, 219, 219);
     border-radius: 9999px;
-    max-width: 480px;
+    max-width: 485px;
     width: fit-content;
     padding: 0 7px;
     height: 68px;
@@ -148,21 +148,26 @@ a {
     height: 100vh;
     padding-top: 28px;
     max-width: calc(100% - 58%);
+    width: 100%;
     text-align: left;
 }
 
 .main__wrapper {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     flex-direction: row;
+    width: 100%;
+    max-width: 1280px;
     padding: 100px 0 0 0;
 }
 
 .main__img {
     max-width: 780px;
+    width: 100%;
 }
 .main__img--wrapper {
-    max-width: calc(100% - 50%);
+    max-width: calc(100% - 40%);
 }
 
 .main__description--title {
@@ -213,7 +218,7 @@ a {
 
 .heading {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -222,24 +227,76 @@ a {
 }
 
 .features__title {
-
+    font-size: 17px;
 }
 
+.features__heading--sub {
+    padding-top: 20px;
+    font-size: 34px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    
+}
+
+
+.features__para {
+    padding-top: 20px;
+    max-width: 580px;
+    text-align: center;
+    color: rgb(136, 152, 175);
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.service__list--wrapper {
+    padding: 0 12px 100px 12px;
+}
 .service__list {
+    padding-top: 66px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .service__list--item {
-    max-width: calc(100% / 3.333);
-    padding: 24px;
-    margin: 6px;
+    max-width: calc(100% / 3.0);
+    padding: 0 18px 80px 18px;
     width: 100%;
-    border: solid 1px black;
+    display: flex;
 }
 
+.service__pic {
+    padding: 4px;
+    border: solid rgb(202, 202, 202) 1px;
+    border-radius: 9999px;
+    height: 65px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
 
+.service__pic--pic {
+    width: 26px;
+}
+
+.service__description {
+    padding-left: 14px;
+}
+
+.service__description--para {
+    color: rgb(136, 152, 175);
+    font-size: 16px;
+    padding-top: 16px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.service__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(36, 62, 99);
+}
 
 
 
