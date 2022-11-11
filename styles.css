@@ -314,6 +314,7 @@ a {
 .column1 {
     max-width: calc(100% / 2);
     width: 100%;
+    padding-right: 32px;
 }
 
 .column2 {
@@ -323,6 +324,8 @@ a {
 
 .section3__img {
     max-width: 100%;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 4px;
 }
 
 .section3__btn {
@@ -335,6 +338,36 @@ a {
     border: none;
     cursor: pointer;
     letter-spacing: 0.025rem;
+}
+
+.section3__title {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.section3__subtitle {
+    font-weight: 900;
+    font-size: 52px;
+}
+
+.section3__subtitle--wrapper {
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(36, 62, 99);
+}
+
+.section3__para {
+    padding-top: 28px;
+    line-height: 2rem;
+    font-size: 18px;
+    color: rgb(121, 136, 156);
+}
+
+.section3__btn--wrapper {
+    padding-top: 28px;
 }
 
 
