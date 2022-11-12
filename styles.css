@@ -163,10 +163,11 @@ a {
 }
 
 .main__img {
-    max-width: 780px;
+    max-width: 760px;
     width: 100%;
 }
 .main__img--wrapper {
+    padding-left: 10px;
     max-width: calc(100% - 40%);
 }
 
@@ -306,29 +307,30 @@ a {
 
 */
 
-.main__wrapper2 {
+.columns__container {
     display: flex;
-    padding-top: 80px;
+    padding: 80px 26px 80px 26px;
 
 }
-.column1 {
+.sect3__column1 {
     max-width: calc(100% / 2);
     width: 100%;
     padding-right: 32px;
 }
 
-.column2 {
+.sect__3column2 {
+    padding-top: 16px;
     max-width: calc(100% / 2);
     width: 100%;
 }
 
-.section3__img {
+.sect3__img {
     max-width: 100%;
     border: solid 1px rgb(219, 219, 219);
     border-radius: 4px;
 }
 
-.section3__btn {
+.sect3__btn {
     background-color: rgb(100 21 255);
     padding: 16px 32px;
     border-radius: 9999px;
@@ -340,33 +342,33 @@ a {
     letter-spacing: 0.025rem;
 }
 
-.section3__title {
+.sect3__title {
     padding-top: 20px;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
 
-.section3__subtitle {
+.sect3__subtitle {
     font-weight: 900;
     font-size: 52px;
 }
 
-.section3__subtitle--wrapper {
+.sect3__subtitle--wrapper {
     padding-top: 20px;
     font-size: 28px;
     font-weight: bold;
     color: rgb(36, 62, 99);
 }
 
-.section3__para {
+.sect3__para {
     padding-top: 24px;
     line-height: 2rem;
     font-size: 18px;
     color: rgb(121, 136, 156);
 }
 
-.section3__btn--wrapper {
+.sect3__btn--wrapper {
     padding-top: 28px;
 }
 
