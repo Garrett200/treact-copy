@@ -430,6 +430,72 @@ a {
     padding-top: 48px;
 }
 
+
+
+
+/*
+
+    SECTION 5
+
+*/
+
+#section5 {
+    padding-top: 250px;
+}
+
+.sect5__container {
+    display: flex;
+    justify-content: center;
+}
+
+.sect5__column1,
+.sect5__column2 {
+    max-width: calc(100% / 2);
+    width: 100%;
+}
+
+.sect5__img {
+    max-width: 680px;
+    width: 100%;
+}
+
+.values__container {
+    display: flex;
+    justify-content: center;
+}
+
+.values1__wrapper,
+.values2__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.svg__wrapper1,
+.svg__wrapper2 {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg__wrapper1 {
+    background-color: rgb(154 230 180);
+}
+
+.svg__wrapper2 {
+    background-color: rgb(254 178 178);
+}
+
+.briefcase {
+    color: rgb(155 44 44);
+}
+
+.dollar-sign {
+    color: rgb(39 103 73);
+}
 /*
 
     CSS STYLE OBJECTS
