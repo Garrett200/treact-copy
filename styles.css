@@ -31,6 +31,27 @@ a {
     color: rgb(100 21 255);
 }
 
+.sect__title {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.0825rem;
+}
+
+.sect__subtitle {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);  
+}
+
+.sect__para {
+    padding-top: 24px;
+    line-height: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(121, 136, 156);
+}
+
 #landing {
     padding: 32px 32px;
     max-height: 95vh;
@@ -224,23 +245,6 @@ a {
     flex-direction: column;
 }
 
-.features__heading {
-
-}
-
-.features__title {
-    font-size: 17px;
-}
-
-.features__heading--sub {
-    padding-top: 20px;
-    font-size: 34px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    
-}
-
-
 .features__para {
     padding-top: 20px;
     max-width: 580px;
@@ -307,18 +311,23 @@ a {
 
 */
 
+#section3 {
+    margin-bottom: 200px;
+}
+
 .columns__container {
     display: flex;
-    padding: 80px 26px 80px 26px;
+    padding-top: 80px;
 
 }
 .sect3__column1 {
     max-width: calc(100% / 2);
     width: 100%;
-    padding-right: 32px;
+    padding-top: 30px;
+    padding-right: 50px;
 }
 
-.sect__3column2 {
+.sect3__column2 {
     padding-top: 16px;
     max-width: calc(100% / 2);
     width: 100%;
@@ -342,30 +351,8 @@ a {
     letter-spacing: 0.025rem;
 }
 
-.sect3__title {
-    padding-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-}
-
-.sect3__subtitle {
-    font-weight: 900;
-    font-size: 52px;
-}
-
 .sect3__subtitle--wrapper {
-    padding-top: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    color: rgb(36, 62, 99);
-}
-
-.sect3__para {
-    padding-top: 24px;
-    line-height: 2rem;
-    font-size: 18px;
-    color: rgb(121, 136, 156);
+    font-size: 50px;
 }
 
 .sect3__btn--wrapper {
@@ -373,9 +360,45 @@ a {
 }
 
 
+/* 
+
+    SECTION 4
+
+*/
 
 
 
+.step__num {
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 0.2;
+}
+
+.step__title {
+    color: rgb(36, 62, 99);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.step__para {
+    color: rgb(136, 152, 175);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+}
+
+.sect4__column1 {
+    max-width: calc(100% / 2);
+}
+
+.sect4__container {
+    display: flex; 
+    justify-content: space-between;
+}
 /*
 
     CSS STYLE OBJECTS
