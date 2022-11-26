@@ -366,39 +366,70 @@ a {
 
 */
 
-
+#section4 {
+    padding-top: 36px;
+}
 
 .step__num {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
-    opacity: 0.2;
+    color: rgb(203 213 224);
+    opacity: 0.9;
 }
 
 .step__title {
     color: rgb(36, 62, 99);
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
 }
 
 .step__para {
-    color: rgb(136, 152, 175);
+    color: rgb(127, 142, 164);
     font-size: 14px;
     font-weight: 500;
+    max-width: 340px;
+    line-height: 2;
+    padding-top: 12px;
 }
 
-.step {
-    display: flex;
-    align-items: center;
+.sect4__column1,
+.sect4__column2 {
+    max-width: calc(100% / 2);
+    width: 100%;
+    padding-top: 10px;
 }
 
 .sect4__column1 {
-    max-width: calc(100% / 2);
+    padding-top: 16px;
+}
+.sect4__column2 {
+    margin-left: 64px;
 }
 
 .sect4__container {
     display: flex; 
-    justify-content: space-between;
+    justify-content: center;
 }
+
+.steps__list {
+    padding-top: 8px;
+}
+
+.step {
+    padding: 32px 0 0 0;
+    align-items: start;
+    display: flex;
+}
+
+.step__description {
+    padding-left: 24px;
+}
+
+.sect4__img {
+    max-width: 640px;
+    padding-top: 48px;
+}
+
 /*
 
     CSS STYLE OBJECTS
