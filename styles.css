@@ -565,10 +565,115 @@ a {
 
 .plans__container {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+    padding-top: 100px;
 }
 
+.plan {
+    max-width: 384px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.281);
+  }
+
+  .plan2 {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    
+  }
+
+.color-top {
+    height: 8px;
+    width: 100%;
+    max-width: 384px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.top1 {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.top2 {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+.plan__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(26 32 44);
+}
+
+.plan__price {
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 18px;
+    color: rgb(26 32 44);
+}
+
+.plan__term {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 18px;
+    color: rgb(160 174 192);
+}
+
+.pay-plan__container {
+    padding: 32px 64px 18px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-info__container {
+    border-top: solid 2px rgb(219, 219, 219);
+    border-bottom: solid 2px rgb(219, 219, 219);
+    padding: 0 80px 18px 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-info__title {
+    color: rgb(26 32 44);
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.plan-info {
+    color: rgb(113 128 150);
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.plan-btn__container {
+    padding: 32px 0 32px 0;
+}
+
+.plan-btn {
+    background-color: rgb(100 21 255);
+    padding: 16px 50px;
+    border-radius: 9999px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.white {
+    color: white;
+}
+
+.white2 {
+    color: rgb(226 232 240);
+}
 /*
 
     CSS STYLE OBJECTS
