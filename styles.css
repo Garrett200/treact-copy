@@ -454,20 +454,47 @@ a {
     width: 100%;
 }
 
+.sect5__column2 {
+    padding-top: 32px;
+}
+
+.sect5__column1 {
+    padding-right: 64px;
+}
+
 .sect5__img {
     max-width: 680px;
     width: 100%;
 }
 
+.values2__container {
+    padding-left: 40px;
+}
+
 .values__container {
+    padding-top: 24px;
     display: flex;
-    justify-content: center;
+    margin-bottom: 24px;
 }
 
 .values1__wrapper,
 .values2__wrapper {
     display: flex;
     align-items: center;
+}
+
+.value1,
+.value2 {
+    padding-left: 12px;
+}
+
+.value1__para,
+.value2__para {
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 270px;
+    line-height: 1.5;
 }
 
 .svg__wrapper1,
@@ -496,6 +523,9 @@ a {
 .dollar-sign {
     color: rgb(39 103 73);
 }
+
+.sect5__btn
+
 /*
 
     CSS STYLE OBJECTS
