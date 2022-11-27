@@ -524,32 +524,23 @@ a {
     color: rgb(39 103 73);
 }
 
-.sect5__btn
+.sect5__btn {
+    background-color: rgb(100 21 255);
+    padding: 14px 31px;
+    border-radius: 9999px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.sect5__btn--wrapper {
+    padding-top: 24px;
+}
 
 /*
 
     CSS STYLE OBJECTS
 
 */
-
-.content1 {
-    position: absolute;
-    background-color: rgba(99, 21, 255, 0.048);
-    transform: rotate(30deg);
-    height: 190px;
-    width: 170px;
-    border-radius: 9999px;
-    z-index: 0;
-    top: 585px;
-    left: -100px;
-}
-
-
-.content2 {
-    position: absolute;
-}
-
-.css__shape {
-    overflow: hidden;
-    position: absolute;
-}
