@@ -565,8 +565,9 @@ a {
 
 .plans__container {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
 }
 
 .plan {
@@ -578,6 +579,8 @@ a {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.281);
+    margin-right: 22px;
+    margin-left: 22px
   }
 
   .plan2 {
@@ -621,7 +624,7 @@ a {
 }
 
 .pay-plan__container {
-    padding: 32px 64px 18px 64px;
+    padding: 44px 64px 32px 64px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -629,9 +632,9 @@ a {
 }
 
 .plan-info__container {
-    border-top: solid 2px rgb(219, 219, 219);
-    border-bottom: solid 2px rgb(219, 219, 219);
-    padding: 0 80px 18px 80px;
+    border-top: solid 2px rgba(219, 219, 219, 0.568);
+    border-bottom: solid 2px rgba(219, 219, 219, 0.568);
+    padding: 22px 80px 32px 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -642,8 +645,13 @@ a {
 .plan-info__title {
     color: rgb(26 32 44);
     padding: 20px 0;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 700;
+}
+
+.plan-info2 {
+    border-top: solid 2px rgb(102 126 234);
+    border-bottom: solid 2px rgb(102 126 234);
 }
 
 .plan-info {
@@ -657,14 +665,26 @@ a {
 }
 
 .plan-btn {
-    background-color: rgb(100 21 255);
-    padding: 16px 50px;
+    padding: 18px 60px;
     border-radius: 9999px;
     color: white;
     font-size: 14px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    letter-spacing: 0.8px;
+}
+
+.plan1-btn {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan2-btn {
+    color: rgb(100 21 255);
+}
+
+.plan3-btn {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .white {
