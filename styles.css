@@ -694,8 +694,37 @@ a {
 .white2 {
     color: rgb(226 232 240);
 }
+
+
 /*
 
-    CSS STYLE OBJECTS
+    SECTION 7
 
 */
+
+#section7 {
+    padding-top: 200px;
+}
+
+.sect7__container {
+    display: flex;
+}
+
+.sect7__column1,
+.sect7__column2 {
+    max-width: calc(100% / 2);
+    width: 100%;
+}
+
+.sect7__column2 {
+    padding-left: 48px;
+}
+
+.sect7__img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.rating {
+    color: rgb(246, 173, 85);
+}
