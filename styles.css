@@ -716,8 +716,12 @@ a {
     width: 100%;
 }
 
+.sect7__column1 {
+    padding-top: 80px;
+}
+
 .sect7__column2 {
-    padding-left: 48px;
+    padding-left: 66px;
 }
 
 .sect7__img {
@@ -742,19 +746,50 @@ a {
     border-radius: 999px;
 }
 
+.review__title {
+    color: rgb(36 62 99);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.review__para {
+    color: rgb(74 85 104);
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
 .reviewer {
     display: flex;
     align-items: center;
 }
 
+.reviewer__name {
+    color: rgb(36 62 99);
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+.reviewer__company {
+    color: rgb(124 139 161);
+    font-weight: 500;
+}
+
 .reviewer__container {
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
+}
+
+.reviewer__info {
+    padding-left: 22px;
 }
 
 .arrows {
     display: flex;
     align-items: center;
+    margin-right: 14px;
 }
 
 .arrow-left__container {
