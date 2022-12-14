@@ -825,4 +825,60 @@ a {
     padding-top: 300px;
 }
 
-.
+.decor {
+    background-color: rgb(100 21 255);
+    width: 100%;
+    height: 282px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.sect__buttons {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    max-width: calc(100% / 2);
+    width: 100%;
+}
+
+.contact__title {
+    max-width: calc(100% / 2);
+    width: 100%;
+    font-size: 29px;
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+    margin-left: 32px;
+}
+
+.start,
+.contact__btn {
+    padding: 20px 40px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.start {
+    color: rgb(237 242 247);
+    background-color: rgb(226, 91, 91);
+    border: transparent;
+    margin-right: 32px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.contact__btn {
+    background-color: rgb(100 21 255);
+    border: 1px solid white;
+    color: white;
+}
