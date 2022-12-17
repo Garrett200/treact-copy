@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;    
-    letter-spacing: 0.025rem;
 }
 
 html {
@@ -27,8 +26,15 @@ a {
     text-decoration: none;
 }
 
-.purple {
+.txt__prpl {
     color: rgb(100 21 255);
+}
+
+.btn__prpl {
+    background-color: rgb(100 21 255);
+    cursor: pointer;
+    border-radius: 9999px;
+    color: white;
 }
 
 .column {
@@ -51,7 +57,7 @@ a {
 
 .sect__para {
     padding-top: 24px;
-    line-height: 2rem;
+    line-height: 1.7rem;
     font-size: 18px;
     font-weight: 500;
     color: rgb(121, 136, 156);
@@ -106,11 +112,8 @@ a {
 
 .nav__btn {
     padding: 12px 32px;
-    border-radius: 9999px;
-    color: white;
     font-weight: 600;
     letter-spacing: 0.025rem;
-    background-color: rgb(100 21 255);
     align-self: flex-end;
     border: none;
 }
@@ -135,9 +138,8 @@ a {
 .main__description--input {
     border: solid 2px rgb(219, 219, 219);
     border-radius: 9999px;
-    max-width: 485px;
-    width: fit-content;
-    padding: 0 7px;
+    max-width: 450px;
+    padding: 0 6px;
     height: 68px;
     display: flex;
     align-items: center;
@@ -151,23 +153,19 @@ a {
 
 .main__description--email {
     border: none;
-    font-size: 15px;
+    font-size: 16px;
     opacity: 25%;
-    padding-left: 20px;
+    padding-left: 24px;
     font-weight: bold;
     cursor: text;
     outline-style: none;
 }
 
 .email__btn {
-    background-color: rgb(100 21 255);
-    padding: 16px 32px;
-    border-radius: 9999px;
-    color: white;
+    padding: 16px 34px;
     font-size: 16px;
     font-weight: bold;
     border: none;
-    cursor: pointer;
 }
 
 .landing {
@@ -193,7 +191,6 @@ a {
     width: 100%;
 }
 .main__img--wrapper {
-    padding-left: 10px;
     max-width: calc(100% - 40%);
 }
 
@@ -206,9 +203,9 @@ a {
 .main__description--para {
     padding: 32px 0 32px 0;
     color: rgb(36, 62, 99);
-    line-height: 1.75rem;
-    font-weight: 500;
-    font-size: 17px;
+    line-height: 1.7rem;
+    font-weight: 400;
+    font-size: 18px;
     text-align: left;
 }
 
@@ -217,15 +214,16 @@ a {
 }
 
 .customers--para {
-    font-weight: bold;
+    color: rgb(160 174 192);
+    font-weight: 800;
     font-size: 12px;
-    opacity: 0.4;
-    padding: 0 0 16px 0;
+    letter-spacing: 0.035rem;
+    padding-bottom: 18px;
 }
 
 .customers--logos {
-    max-width: 400px;
-    opacity: 0.4;
+    max-width: 405px;
+    opacity: 0.5;
 }
 
 
@@ -251,12 +249,8 @@ a {
 }
 
 .features__para {
-    padding-top: 20px;
     max-width: 580px;
     text-align: center;
-    color: rgb(136, 152, 175);
-    font-weight: 500;
-    line-height: 1.7rem;
 }
 
 .service__list--wrapper {
@@ -281,7 +275,7 @@ a {
     border: solid rgb(226, 226, 226) 1px;
     border-radius: 9999px;
     height: 65px;
-    width: 150px;
+    width: 140px;
     display: flex;
     justify-content: center;
 }
@@ -291,7 +285,7 @@ a {
 }
 
 .service__description {
-    padding-left: 14px;
+    padding: 4px  0 0 14px;
 }
 
 .service__description--para {
@@ -304,7 +298,7 @@ a {
 }
 
 .service__title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     color: rgb(36, 62, 99);
 }
@@ -341,14 +335,10 @@ a {
 }
 
 .sect3__btn {
-    background-color: rgb(100 21 255);
     padding: 16px 32px;
-    border-radius: 9999px;
-    color: white;
     font-size: 14px;
     font-weight: bold;
     border: none;
-    cursor: pointer;
     letter-spacing: 0.025rem;
 }
 
@@ -503,7 +493,6 @@ a {
 
 .svg__wrapper1 {
     background-color: rgb(154 230 180);
-    background-color: rgb(0, 173, 136);
 }
 
 .svg__wrapper2 {
@@ -519,14 +508,10 @@ a {
 }
 
 .sect5__btn {
-    background-color: rgb(100 21 255);
     padding: 14px 31px;
-    border-radius: 9999px;
-    color: white;
     font-size: 14px;
     font-weight: bold;
     border: none;
-    cursor: pointer;
 }
 
 .sect5__btn--wrapper {
@@ -673,6 +658,7 @@ a {
 }
 
 .plan2-btn {
+    background: rgb(252, 252, 252);
     color: rgb(100 21 255);
 }
 
@@ -851,7 +837,6 @@ a {
 .start,
 .contact__btn {
     padding: 20px 40px;
-    border-radius: 9999px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -865,9 +850,7 @@ a {
 }
 
 .contact__btn {
-    background-color: rgb(100 21 255);
     border: 1px solid white;
-    color: white;
 }
 
 
@@ -881,6 +864,9 @@ a {
     padding-top: 190px;
 }
 
+.sect9__container {
+    background-color: rgb(100 21 255);
+}
 
 .social__link {
     background-color: white;
@@ -899,10 +885,6 @@ a {
 .social__img {
     height: 16px;
     width: 16px;
-}
-
-.sect9__container {
-    background-color: rgb(100 21 255);
 }
 
 .logo__white {
