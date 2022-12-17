@@ -63,7 +63,13 @@ a {
     color: rgb(121, 136, 156);
 }
 
-#landing {
+/*
+
+    SECTION 1
+
+*/
+
+#section1 {
     padding: 32px 32px;
     max-height: 95vh;
     overflow: hidden;
@@ -73,6 +79,7 @@ a {
     display: flex;
     height: 100%;
     max-height: 44px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -81,53 +88,39 @@ a {
     justify-content: space-between;
 }
 
-.nav__links--list {
-    display: flex;
-    align-items: center;
-}
-
 .nav__links {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+
 }
 
 .nav__link {
-    color: rgb(32, 59, 66);
-}
-.nav__links--list__item {
-    margin: 0 0px;
-    padding: 0 24px;
+    color: rgb(36 62 99);
+    padding: 0 26px;
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 14px;
 }
 
-.nav__links--button {
-    padding: 0 0 0 2px;
-}
-
-.nav__link--login {
-    color: rgb(29, 61, 71);
-    margin: 0 0px 0 22px;
+.login {
+    margin-left: 22px;
 }
 
 .nav__btn {
     padding: 12px 32px;
     font-weight: 600;
     letter-spacing: 0.025rem;
-    align-self: flex-end;
     border: none;
 }
 
 .nav__logo {
     display: flex;
-    justify-content: flex-start;
 }
 .logo {
     height: 40px;
     width: 40px;
 }
 
-.title {
+.nav__title {
     color: rgb(29, 61, 71);
     display: flex;
     align-items: center;
