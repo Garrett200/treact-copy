@@ -905,6 +905,10 @@ a {
     align-items: center;
 }
 
+.socials {
+    display: flex;
+}
+
 .social__img {
     height: 16px;
     width: 16px;
@@ -912,4 +916,32 @@ a {
 
 .sect9__container {
     background-color: rgb(100 21 255);
+}
+
+.logo__white {
+    height: 32px;
+    width: 32px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    display: flex;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
