@@ -45,7 +45,7 @@ a {
 .sect__title {
     font-size: 16px;
     font-weight: bold;
-    letter-spacing: 0.0825rem;
+    letter-spacing: 1.3px;
 }
 
 .sect__subtitle {
@@ -57,7 +57,7 @@ a {
 
 .sect__para {
     padding-top: 24px;
-    line-height: 1.7rem;
+    line-height: 27px;
     font-size: 18px;
     font-weight: 500;
     color: rgb(121, 136, 156);
@@ -100,11 +100,6 @@ a {
     font-weight: 900;
 }
 
-.nav__links--wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
 .nav__links {
     display: flex;
     align-items: center;
@@ -125,7 +120,7 @@ a {
 .nav__btn {
     padding: 12px 32px;
     font-weight: 600;
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.4px;
     border: none;
 }
 
@@ -193,7 +188,7 @@ a {
 .sect1__para {
     padding: 32px 0 32px 0;
     color: rgb(36, 62, 99);
-    line-height: 1.7rem;
+    line-height: 27px;
     font-weight: 400;
     font-size: 18px;
 }
@@ -206,7 +201,7 @@ a {
     color: rgb(160 174 192);
     font-weight: 800;
     font-size: 12px;
-    letter-spacing: 0.035rem;
+    letter-spacing: 0.55px;
     padding-bottom: 18px;
 }
 
@@ -282,7 +277,7 @@ a {
     padding-top: 16px;
     text-align: left;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 32px;
 }
 
 .service__title {
@@ -327,7 +322,7 @@ a {
     font-size: 14px;
     font-weight: bold;
     border: none;
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.4px;
 }
 
 .sect3__subtitle--wrapper {
@@ -393,7 +388,7 @@ a {
 }
 
 .step {
-    padding: 32px 0 0 0;
+    padding-top: 32px;
     align-items: start;
     display: flex;
 }
