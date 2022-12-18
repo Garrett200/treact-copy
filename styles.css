@@ -762,6 +762,7 @@ a {
     width: 48px;
     background-color: rgb(237 242 247);
     border-radius: 999px;
+    cursor: pointer;
 }
 
 /*
@@ -795,15 +796,15 @@ a {
 .sect__buttons {
     display: flex;
     align-items: center;
-    padding-left: 100px;
-    max-width: calc(100% / 2);
+    padding-right: 30px;
+    max-width: fit-content;
     width: 100%;
 }
 
 .contact__title {
     max-width: calc(100% / 2);
     width: 100%;
-    font-size: 29px;
+    font-size: 30px;
     line-height: 1.5;
     text-align: left;
     color: white;
@@ -812,9 +813,9 @@ a {
 
 .start__btn,
 .contact__btn {
-    padding: 20px 40px;
+    padding: 24px 44px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .start__btn {
@@ -822,6 +823,7 @@ a {
     background-color: rgb(226, 91, 91);
     border-radius: 9999px;
     border: transparent;
+    cursor: pointer;
     margin-right: 32px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
@@ -845,6 +847,11 @@ a {
     background-color: rgb(100 21 255);
 }
 
+.divider {
+    border-bottom: solid 2px rgb(120, 53, 255);
+    border-right: solid 2px rgb(100 21 255);
+}
+
 .social__link {
     background-color: white;
     height: 32px;
@@ -860,8 +867,8 @@ a {
 }
 
 .social__img {
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
 }
 
 .logo__white {
@@ -870,24 +877,56 @@ a {
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 24px;
-    color: white;
+    width: fit-content;
     display: flex;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    padding-left: 8px;
 }
 
 .footer__copyright {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 90px 0;
+}
+
+.copyright {
+    color: rgb(211, 211, 211);
+    font-weight: 500;
+    -moz-box-align: center;
 }
 
 .footer__links {
     display: flex;
     justify-content: space-between;
+    padding: 100px 0 28px 0;
+}
+
+.footer__link {
+    font-size: 14px;
+    padding-bottom: 16px;
+    font-weight: 500;
+    color: rgb(240, 240, 240);
 }
 
 .category__container {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+}
+
+.category {
+    font-size: 16px;
+    padding-bottom: 28px;
+    color: rgb(240, 240, 240);
+}
+
+.social__link-container {
+    padding-left: 16px;
 }
