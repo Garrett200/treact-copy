@@ -213,7 +213,7 @@ a {
 
 /*
 
-    FEATURES
+    SECTION 2
 
 */
 
@@ -236,11 +236,8 @@ a {
     text-align: center;
 }
 
-.service__list--wrapper {
-    padding: 0 12px 100px 12px;
-}
 .service__list {
-    padding-top: 66px;
+    padding: 66px 12px 100px 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -300,7 +297,6 @@ a {
 .columns__container {
     display: flex;
     padding-top: 80px;
-
 }
 .sect3__column1 {
     padding-top: 30px;
@@ -317,6 +313,10 @@ a {
     border-radius: 4px;
 }
 
+.sect3__btn-container {
+    padding-top: 28px;
+}
+
 .sect3__btn {
     padding: 16px 32px;
     font-size: 14px;
@@ -324,15 +324,6 @@ a {
     border: none;
     letter-spacing: 0.4px;
 }
-
-.sect3__subtitle--wrapper {
-    font-size: 50px;
-}
-
-.sect3__btn--wrapper {
-    padding-top: 28px;
-}
-
 
 /* 
 
@@ -433,7 +424,7 @@ a {
     width: 100%;
 }
 
-.values2__container {
+.values__column2 {
     padding-left: 40px;
 }
 
@@ -443,8 +434,8 @@ a {
     margin-bottom: 24px;
 }
 
-.values1__wrapper,
-.values2__wrapper {
+.values1__title,
+.values2__title {
     display: flex;
     align-items: center;
 }
@@ -463,8 +454,8 @@ a {
     line-height: 1.5;
 }
 
-.svg__wrapper1,
-.svg__wrapper2 {
+.svg__column1-container,
+.svg__column2-container {
     width: 36px;
     height: 36px;
     padding: 8px;
@@ -474,11 +465,11 @@ a {
     align-items: center;
 }
 
-.svg__wrapper1 {
+.svg__column1-container {
     background-color: rgb(154 230 180);
 }
 
-.svg__wrapper2 {
+.svg__column2-container {
     background-color: rgb(254 178 178);
 }
 
@@ -544,7 +535,7 @@ a {
     margin-left: 22px
   }
 
-  .plan2 {
+.plan2 {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     
   }
@@ -598,8 +589,8 @@ a {
     padding: 22px 80px 32px 80px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -608,6 +599,8 @@ a {
     padding: 20px 0;
     font-size: 19px;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
 }
 
 .plan-info2 {
@@ -622,7 +615,7 @@ a {
 }
 
 .plan-btn__container {
-    padding: 32px 0 32px 0;
+    padding: 32px 0;
 }
 
 .plan-btn {
@@ -817,16 +810,17 @@ a {
     margin-left: 32px;
 }
 
-.start,
+.start__btn,
 .contact__btn {
     padding: 20px 40px;
     font-size: 16px;
     font-weight: 500;
 }
 
-.start {
+.start__btn {
     color: rgb(237 242 247);
     background-color: rgb(226, 91, 91);
+    border-radius: 9999px;
     border: transparent;
     margin-right: 32px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
