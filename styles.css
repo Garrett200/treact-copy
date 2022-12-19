@@ -931,7 +931,7 @@ a {
 }
 
 
-.link__hover-effect:after {
+.footer__link:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -944,7 +944,7 @@ a {
 }
 
 
-.link__hover-effect:hover:after {
+.footer__link:hover:after {
     opacity: 1;
     transition: all 200ms ease-in-out;
 }
