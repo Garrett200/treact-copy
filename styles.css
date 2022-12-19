@@ -33,6 +33,14 @@ a {
     color: rgb(100 21 255);
 }
 
+.animation__enter-right {
+
+}
+
+.animation__enter-left {
+
+}
+
 .btn__prpl {
     background-color: rgb(100 21 255);
     cursor: pointer;
@@ -220,6 +228,9 @@ a {
 
 */
 
+#section2 {
+}
+
 .row2 {
     max-width: 1024px;    
     width: 100%;
@@ -294,7 +305,7 @@ a {
 */
 
 #section3 {
-    margin-bottom: 200px;
+
 }
 
 .columns__container {
@@ -335,7 +346,7 @@ a {
 */
 
 #section4 {
-    padding-top: 36px;
+    padding-top: 230px;
 }
 
 .step__num {
@@ -963,4 +974,37 @@ a {
 
 .social__link-container {
     padding-left: 16px;
+}
+
+.enter-right {
+    animation: enter-right 600ms ease;
+}
+
+.enter-left {
+    animation: enter-left 600ms ease;
+}
+
+/*
+
+    ANIMATIONS
+
+*/
+@keyframes enter-left {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-0%);
+    }
+}
+
+@keyframes enter-right {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
