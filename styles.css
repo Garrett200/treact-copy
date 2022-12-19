@@ -24,7 +24,10 @@ li {
 
 a {
     text-decoration: none;
+    position: relative;
+    transition: opacity 300ms ease;
 }
+
 
 .txt__prpl {
     color: rgb(100 21 255);
@@ -748,7 +751,7 @@ a {
 .arrow-right__container {
     margin-left: 12px;
 }
-.divider {
+.arrow-divider {
     border-right: 1px solid rgb(220, 225, 231);
     height: 24px;
 }
@@ -813,14 +816,15 @@ a {
 
 .start__btn,
 .contact__btn {
-    padding: 24px 44px;
+    padding: 20px 40px;
     font-size: 16px;
     font-weight: 700;
+    transition: all 300ms ease;
 }
 
 .start__btn {
-    color: rgb(237 242 247);
-    background-color: rgb(226, 91, 91);
+    color: rgb(247, 250, 252);
+    background-color: rgb(245, 101, 101);
     border-radius: 9999px;
     border: transparent;
     cursor: pointer;
@@ -828,9 +832,20 @@ a {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+.start__btn:hover {
+    background-color: rgb(245, 58, 58);
+    transition: all 300ms ease;
+}
+
 .contact__btn {
     border: 1px solid white;
 }
+
+.contact__btn:hover {
+    background-color: rgb(240, 240, 240);;
+    color: rgb(100, 21, 255)
+}
+
 
 
 /*
@@ -913,6 +928,25 @@ a {
     padding-bottom: 16px;
     font-weight: 500;
     color: rgb(240, 240, 240);
+}
+
+
+.link__hover-effect:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    height: 2px;
+    bottom: 11px;
+    left: 0;
+    background-color: rgb(240, 240, 240);
+    transition: all 200ms ease-in-out;
+}
+
+
+.link__hover-effect:hover:after {
+    opacity: 1;
+    transition: all 200ms ease-in-out;
 }
 
 .category__container {
