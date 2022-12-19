@@ -109,6 +109,7 @@ a {
     align-items: center;
     padding-left: 12px;
     font-weight: 900;
+    letter-spacing: 0.6px;
 }
 
 .nav__links {
@@ -161,6 +162,8 @@ a {
 .sect1__email--input {
     border: none;
     font-size: 16px;
+    width: 100%;
+    max-width: 220px;
     opacity: 25%;
     padding-left: 24px;
     font-weight: bold;
@@ -208,7 +211,7 @@ a {
     margin-top: 80px;
 }
 
-.customers--para {
+.customers__para {
     color: rgb(160 174 192);
     font-weight: 800;
     font-size: 12px;
@@ -216,7 +219,7 @@ a {
     padding-bottom: 18px;
 }
 
-.customers--logos {
+.customers__logos {
     max-width: 405px;
     opacity: 0.5;
 }
@@ -1007,4 +1010,93 @@ a {
     100% {
         transform: translateX(0%);
     }
+}
+
+/*
+
+    MEDIA SIZES
+
+*/
+
+/* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+
+}
+
+/* SMALL PHONES */
+
+@media (max-width: 480px) {
+
+}
+
+
+/* DESKTOPS */
+
+@media (max-width: 1024px) {
+    .sect1__container {
+        margin-top: -32px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__logo {
+        padding-top: 12px;
+    }
+
+    .sect1__para {
+        text-align: center;
+        font-size: 16px;
+        margin-top: -12px;
+        line-height: 1.5;
+        margin-bottom: -12px;
+    }
+
+    .sect1__email--container {
+        max-width: 448px;
+        width: 100%;
+    }
+
+    .sect1__column1 {
+        max-width: 512px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect1__column2 {
+        max-width: 512px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sect1__title {
+        font-size: 30px;
+    }
+
+    .nav__links {
+        visibility: hidden;
+    }
+
+    .customers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .customers__para {
+        font-size: 14px;
+    }
+
+    .customers__logos {
+        max-width: 512px;
+        width: 100%;
+    }
+
+    .sect1__column2 {
+        padding-top: 50px;
+    }
+
 }

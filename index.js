@@ -1,29 +1,37 @@
-const inViewport = (entries, observer) => {
-    entries.forEach(entry => {
-        entry.target.classList.toggle("enter-left", entry.isIntersecting);
+function inViewAnimation() {
+    const inViewport = (entries, observer) => {
+        entries.forEach(entry => {
+            entry.target.classList.toggle("enter-left", entry.isIntersecting);
+        });
+    };
+
+    const inViewport2 = (entries, observer) => {
+        entries.forEach(entry => {
+            entry.target.classList.toggle("enter-right", entry.isIntersecting);
+        });
+    };
+
+    const Obs2 = new IntersectionObserver(inViewport2);
+    const Obs = new IntersectionObserver(inViewport);
+    const obsOptions = {};
+    const ELs_inViewport = document.querySelectorAll('.animation__enter-left');
+    const ELs_inViewport2 = document.querySelectorAll('.animation__enter-right');
+
+    ELs_inViewport.forEach(EL => {
+        Obs.observe(EL, obsOptions);
     });
-};
 
-const inViewport2 = (entries, observer) => {
-    entries.forEach(entry => {
-        entry.target.classList.toggle("enter-right", entry.isIntersecting);
+    ELs_inViewport2.forEach(EL => {
+        Obs2.observe(EL, obsOptions);
     });
-};
+}
 
-const Obs2 = new IntersectionObserver(inViewport2);
-const Obs = new IntersectionObserver(inViewport);
-const obsOptions = {};
+inViewAnimation();
 
-// Attach observer to every [data-inviewport] element:
-const ELs_inViewport = document.querySelectorAll('.animation__enter-left');
-ELs_inViewport.forEach(EL => {
-    Obs.observe(EL, obsOptions);
-    });
 
-const ELs_inViewport2 = document.querySelectorAll('.animation__enter-right');
-ELs_inViewport2.forEach(EL => {
-    Obs2.observe(EL, obsOptions);
-});
+
+
+
 
 /*
 document.addEventListener("DOMContentLoaded", function(event) {
