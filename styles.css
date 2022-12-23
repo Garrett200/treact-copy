@@ -273,6 +273,7 @@ a {
     width: 140px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .service__pic--pic {
@@ -1025,20 +1026,36 @@ a {
 
 @media (max-width: 500px) {
 
+    * {
+        text-align: center;
+        letter-spacing: 0.020px;
+        line-height: 1.25;
+    }
+
     /* SECTION 1 */
+
+    .sect1__container {
+        padding-top: 96px;
+    }
     .sect1__title {
         font-size: 30px;
-        text-align: center;
     }
 
     .sect1__email--container {
         height: 60px;
     }
 
+    .sect1__email--input {
+        padding: 0 0 0 26px;
+        max-width: 300px;
+        text-align: start;
+        font-weight: 500;
+    }
+
     .email__btn {
         position: absolute;
         margin-bottom: -146px;
-        left: 33px;
+        left: 32px;
         padding: 18px 164px;
         justify-self: center;
         display: flex;
@@ -1058,9 +1075,59 @@ a {
         padding: 218px 24px 0 24px;
     }
 
-    .sect__subtitle {
-        font-size: 32px;
+    .sect__title {
+        margin: 0 0 18px 0;
+        letter-spacing: 1.70px;
+    }
 
+    .sect__para {
+        font-size: 14px;
+        margin-top: -10px;
+        line-height: 1.7;
+    }
+
+    .sect__subtitle {
+        font-size: 36px;
+        padding: 0 14px;
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+
+    }
+
+    .service__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__list--item {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 0 66px 0;
+    }
+
+    .service__pic {
+        width: 65px;
+    }
+
+    .service__pic--pic {
+        width: 24px;
+    }
+
+    .service__title {
+        text-align: center;
+        letter-spacing: 1.7;
+    }
+
+    .service__description {
+        align-items: center;
+        padding: 14px 0 0 0;
+    }
+
+    .service__description--para {
+        width: 300px;
+        padding: 0;
+        text-align: center;
     }
 }
 
