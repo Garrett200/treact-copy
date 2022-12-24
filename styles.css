@@ -56,7 +56,7 @@ a {
 .sect__title {
     font-size: 16px;
     font-weight: bold;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.7px;
 }
 
 .sect__subtitle {
@@ -459,6 +459,7 @@ a {
 .value1,
 .value2 {
     padding-left: 12px;
+    font-size: 20px;
 }
 
 .value1__para,
@@ -1215,7 +1216,7 @@ a {
     }
 
     .sect5__column1 {
-        padding: 50px 18px 0 18px;
+        padding: 56px 18px 0 18px;
     }
 
     .values__container {
@@ -1225,7 +1226,11 @@ a {
 
     .values__column1,
     .values__column2 {
-        padding: 0;
+        padding: 14px 0 0 0;
+    }
+
+    .values__column2 {
+        padding-top: 40px;
     }
 
     .values1__title,
@@ -1233,6 +1238,77 @@ a {
         justify-content: center;
     }
 
+    .sect5__para {
+        padding: 38px 12px 0 12px;
+    }
+
+    .value2__para,
+    .value1__para {
+        padding-top: 24px;
+        max-width: 340px;
+        font-size: 16px;
+    }
+
+    /*  SECTION 6   */
+
+    #section6 {
+        padding-top: 200px;
+    }
+
+    .sect6__subtitle {
+        font-size: 36px;
+        padding-top: 0px;
+        line-height: 1.5;
+    }
+
+    .sect6__para {
+        max-width: 440px;
+    }
+
+    .plans__container {
+        flex-direction: column;
+        padding-top: 66px;
+    }
+
+    .pay-plan__container {
+        padding: 36px 64px 34px 64px;
+    }
+
+    .plan__price {
+        font-size: 36px;
+        padding-top: 14px;
+    }
+
+    .plan__term {
+        letter-spacing: 1.5px;
+        padding-top: 14px;
+    }
+
+    .plan-info__container {
+        padding: 16px 80px 22px 80px;
+    }
+
+    .plan-info__title {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        padding: 20px 0 13px 0;
+    }
+
+    .plan-info {
+        padding: 12px 0;
+    }
+
+    .plan-btn {
+        padding: 18px 108px;
+    }
+
+    .plan {
+        margin-bottom: 66px;
+    }
+
+    .pay-plan2__container {
+        padding: 44px 80px 36px 80px;
+    }
 }
 
 
