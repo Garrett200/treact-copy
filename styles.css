@@ -1032,7 +1032,7 @@ a {
         line-height: 1.25;
     }
 
-    /* SECTION 1 */
+    /*  SECTION 1   */
 
     .sect1__container {
         padding-top: 96px;
@@ -1069,7 +1069,7 @@ a {
         margin-top: -10px;
     }
 
-    /* SECTION 2 */
+    /*  SECTION 2   */
 
     #section2 {
         padding: 218px 24px 0 24px;
@@ -1086,7 +1086,7 @@ a {
         line-height: 1.7;
     }
 
-    .sect__subtitle {
+    .sect2__subtitle {
         font-size: 36px;
         padding: 0 14px;
         letter-spacing: 1.5px;
@@ -1125,10 +1125,114 @@ a {
     }
 
     .service__description--para {
-        width: 300px;
+        width: 340px;
         padding: 0;
         text-align: center;
     }
+
+    /*  SECTION 3   */
+
+    .columns__container {
+        flex-direction: column-reverse;
+    }
+
+    .column {
+        max-width: 500px;
+        padding: 0 30px;
+    }
+
+    .sect3__column1 {
+        padding-top: 62px;
+    }
+
+    .sect__subtitle {
+        padding: 20px 0 0 0;
+        font-size: 30px;
+        letter-spacing: 0.75px;
+        line-height: 1.325;
+    }
+
+    .txt__prpl {
+        letter-spacing: 0.75px;
+    }
+
+    .sect3__btn {
+        padding: 14px 30px;
+    }
+
+    /*  SECTION 4   */
+
+    #section4 {
+        padding: 160px 0 0 0;
+    }
+
+    .sect4__container {
+        flex-direction: column;
+        max-width: 500px;
+    }
+
+    .sect4__title {
+        padding: 60px 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sect4__img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sect4__column2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step__num {
+        padding: 0 0 8px 0;
+    }
+
+    .step__para {
+        max-width: 320px;
+    }
+
+    .step__description {
+        padding: 0;
+    }
+
+    /*  SECTION 5   */
+
+    #section5 {
+        padding: 150px 0 0 0;
+    }
+
+    .sect5__container {
+        flex-direction: column-reverse;
+    }
+
+    .sect5__column1 {
+        padding: 50px 18px 0 18px;
+    }
+
+    .values__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .values__column1,
+    .values__column2 {
+        padding: 0;
+    }
+
+    .values1__title,
+    .values2__title {
+        justify-content: center;
+    }
+
 }
 
 
