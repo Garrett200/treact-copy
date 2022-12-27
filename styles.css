@@ -1217,6 +1217,31 @@ a {
     .values2__title {
         justify-content: center;
     }
+
+    /*  SECTION 6   */
+
+    #section6 {
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    .sect6__subtitle {
+        font-size: 48px;
+        max-width: 580px;
+        line-height: 1.5;
+    }
+
+    .plans__container {
+        flex-direction: column;
+    }
+
+    .plan-btn {
+        padding: 18px 90px;
+    }
+
+    .plan {
+        margin-bottom: 66px;
+    }
 }
 
 /* SMALL PHONES */
